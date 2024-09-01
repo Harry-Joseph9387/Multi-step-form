@@ -1,47 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.steps li{
-    border:2px solid white;
-    border-radius:100%;
-    padding:5px 13px;
-    color:white;
-    font-weight: 700;
-}
-.step1 input{
-    border:1px solid gray;
-    width:100%;
-    padding:8px 15px;
-    border-radius: 5px;
-}
-.steps .current-step{
-    color:black;
+
+.activeStep{
     background-color: white;
+    color:black;
 }
-.steps p{
-    color:hsl(231, 11%, 63%);
+.buttonAction{
+    transform:translateX(20px);
 }
-.steps h5{
-    color:hsl(231, 100%, 99%);
-    font-weight:600;
-}
-.button-action{
-    transform: translateX(15px);
-}
-.contents1{
-    width:95%;
-}
-.step2Selected{
-    border:2px solid hsl(243, 100%, 62%);
-    background-color:hsl(217, 100%, 97%) ;
-}
-@media(min-width:1024px){
-    .contents1{
-        width:50%;
-    }
-    .parentContent{
-        background-color: white;
-        width:80vw;
-        height:82vh;
-    }
+.step2PlanSelected{
+    border:1px solid hsl(263, 97%, 35%);
+    background-color: hsla(263, 97%, 35%, 0.038);
+
 }
